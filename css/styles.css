@@ -279,12 +279,12 @@ img {
 
 .icon-antenna::before {
     background-image: url(../images/antenna.svg);
-    background-size: 65.32px 70px;
+    background-size: 70px 70px;
 }
 
 .icon-clock::before {
     background-image: url(../images/clock.svg);
-    background-size: 66.96px 70px;
+    background-size: 70px 70px;
 }
 
 .icon-diagram::before {
@@ -498,6 +498,7 @@ img {
 
 .footer-wrap .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-soc {
@@ -507,10 +508,12 @@ img {
 .footer-soc-title {
     display: block;
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
-        font-size: 14px;
-        text-transform: uppercase;
-        color: var(--white-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
 }
 
 .footer-soc-list {
@@ -618,8 +621,8 @@ img {
     margin-bottom: 30px;
 }
 
-.portfolio-item:hover, 
-.portfolio-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
